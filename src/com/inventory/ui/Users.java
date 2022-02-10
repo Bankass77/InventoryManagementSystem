@@ -14,7 +14,6 @@ import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.sql.SQLException;
 import javax.swing.BorderFactory;
-import javax.swing.ImageIcon;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 
@@ -23,7 +22,11 @@ import javax.swing.JOptionPane;
  * @author ADMIN
  */
 public class Users extends javax.swing.JPanel {
-    File f;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	File f;
     JFileChooser chooser;
     /**
      * Creates new form NewJPanel

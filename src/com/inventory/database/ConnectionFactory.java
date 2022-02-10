@@ -22,8 +22,8 @@ public class ConnectionFactory {
     
     public ConnectionFactory(){
         try{
-            Class.forName("com.mysql.jdbc.Driver");
-            con=DriverManager.getConnection("jdbc:mysql://localhost/ims?user=root&password=root");
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/ims?user=root&password=Mahamoudou79!");
             stmt=con.createStatement();
         }catch(Exception e){
             e.printStackTrace();
@@ -32,8 +32,8 @@ public class ConnectionFactory {
     
     public Connection getConnection(){
         try{
-            Class.forName("com.mysql.jdbc.Driver");
-            con=DriverManager.getConnection("jdbc:mysql://localhost/ims?user=root&password=root");
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/ims?user=root&password=Mahamoudou79!");
         }catch(Exception e){
             e.printStackTrace();
         }

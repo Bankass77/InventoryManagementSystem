@@ -8,7 +8,6 @@ package com.inventory.ui;
 import com.inventory.dao.UserDAO;
 import com.inventory.dto.UserDTO;
 import java.sql.ResultSet;
-import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
 /**
@@ -18,6 +17,10 @@ import javax.swing.JOptionPane;
 public class ChangeDetails extends javax.swing.JPanel {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	/**
      * Creates new form ChangeDetails
      */
 

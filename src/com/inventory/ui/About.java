@@ -13,6 +13,10 @@ package com.inventory.ui;
 public class About extends javax.swing.JPanel {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	/**
      * Creates new form About
      */
     public About() {
@@ -40,15 +44,15 @@ public class About extends javax.swing.JPanel {
 
         jLabel2.setFont(new java.awt.Font("Comfortaa", 0, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 0, 102));
-        jLabel2.setText("Name: Sajan Rajbhandari");
+        jLabel2.setText("Name: GUINDO Amadou");
 
         jLabel3.setFont(new java.awt.Font("Comfortaa", 0, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 0, 102));
-        jLabel3.setText("Email Id: sazanrjb@gmail.com");
+        jLabel3.setText("Email Id: amguindo77@gmail.com");
 
         jLabel5.setFont(new java.awt.Font("Comfortaa", 0, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(0, 0, 102));
-        jLabel5.setText("Website: http://sazanrjb.com.np");
+        
 
         jLayeredPane1.setLayer(jLabel1, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jLayeredPane1.setLayer(jLabel2, javax.swing.JLayeredPane.DEFAULT_LAYER);

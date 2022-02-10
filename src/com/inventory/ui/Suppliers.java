@@ -9,8 +9,6 @@ package com.inventory.ui;
 import com.inventory.dao.SupplierDAO;
 import com.inventory.dto.SupplierDTO;
 import java.awt.Color;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
 import java.sql.SQLException;
 import javax.swing.BorderFactory;
 import javax.swing.JOptionPane;
@@ -22,6 +20,10 @@ import javax.swing.JOptionPane;
 public class Suppliers extends javax.swing.JPanel {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	/**
      * Creates new form Suppliers
      */
     public Suppliers() {

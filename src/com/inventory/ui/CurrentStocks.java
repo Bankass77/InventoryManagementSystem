@@ -6,12 +6,8 @@
 
 package com.inventory.ui;
 
-import com.inventory.dao.CustomerDAO;
 import com.inventory.dao.ProductDAO;
-import com.inventory.dto.ProductDTO;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -20,6 +16,10 @@ import javax.swing.JOptionPane;
 public class CurrentStocks extends javax.swing.JPanel {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	/**
      * Creates new form CurrentStocks
      */
     String u;

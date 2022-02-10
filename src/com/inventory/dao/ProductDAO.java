@@ -8,7 +8,6 @@ package com.inventory.dao;
 
 import com.inventory.database.ConnectionFactory;
 import com.inventory.dto.ProductDTO;
-import com.inventory.ui.CurrentStocks;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

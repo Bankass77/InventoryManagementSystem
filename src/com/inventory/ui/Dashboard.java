@@ -11,8 +11,6 @@ import java.awt.Toolkit;
 import javax.swing.BorderFactory;
 import javax.swing.ButtonGroup;
 import javax.swing.JFrame;
-import javax.swing.JScrollPane;
-import javax.swing.border.BevelBorder;
 
 /**
  *
@@ -21,6 +19,10 @@ import javax.swing.border.BevelBorder;
 public class Dashboard extends javax.swing.JFrame {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	/**
      * Creates new form Dashboard
      */
     CardLayout layout;

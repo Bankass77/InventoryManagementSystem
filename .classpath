@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/home/a.guindo@gop.link/eclipse-workspace/IMSsoft/lib/JTattoo-1.6.10.jar"/>
+	<classpathentry kind="lib" path="/home/a.guindo@gop.link/eclipse-workspace/IMSsoft/lib/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/a.guindo@gop.link/eclipse-workspace/IMSsoft/lib/AbsoluteLayout.jar"/>
+	<classpathentry kind="lib" path="/home/a.guindo@gop.link/Téléchargements/mysql-connector-java-8.0.28.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

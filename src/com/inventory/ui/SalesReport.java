@@ -21,6 +21,10 @@ import javax.swing.JOptionPane;
  * @author ADMIN
  */
 public class SalesReport extends javax.swing.JPanel {
+/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 String u;
     /**
      * Creates new form SalesReport

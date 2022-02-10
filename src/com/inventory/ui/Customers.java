@@ -8,9 +8,7 @@ package com.inventory.ui;
 
 import com.inventory.dao.CustomerDAO;
 import com.inventory.dto.CustomerDTO;
-import com.inventory.dto.UserDTO;
 import java.awt.Color;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.swing.BorderFactory;
 import javax.swing.JOptionPane;
@@ -22,6 +20,10 @@ import javax.swing.JOptionPane;
 public class Customers extends javax.swing.JPanel {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	/**
      * Creates new form Customers
      */
     public Customers() {

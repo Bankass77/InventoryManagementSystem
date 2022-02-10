@@ -9,11 +9,9 @@ package com.inventory.ui;
 import com.inventory.dao.ProductDAO;
 import com.inventory.dto.ProductDTO;
 import java.awt.Color;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.swing.BorderFactory;
 import javax.swing.JOptionPane;
-import javax.swing.table.TableColumn;
 
 /**
  *
@@ -22,6 +20,10 @@ import javax.swing.table.TableColumn;
 public class Products extends javax.swing.JPanel {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	/**
      * Creates new form Products
      */
     ProductDTO productdto;

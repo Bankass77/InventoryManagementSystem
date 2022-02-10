@@ -20,6 +20,10 @@ import javax.swing.JOptionPane;
  * @author dell pc
  */
 public class Purchase extends javax.swing.JPanel {
+/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 ProductDTO productdto;
     /**
      * Creates new form Purchase

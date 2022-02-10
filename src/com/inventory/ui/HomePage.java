@@ -11,6 +11,10 @@ package com.inventory.ui;
 public class HomePage extends javax.swing.JPanel {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	/**
      * Creates new form HomePage
      */
     public HomePage() {

@@ -18,6 +18,10 @@ import javax.swing.JOptionPane;
 public class LoginDialog extends javax.swing.JDialog {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	/**
      * Creates new form LoginDialog
      */
     public LoginDialog() {
@@ -172,6 +176,9 @@ public class LoginDialog extends javax.swing.JDialog {
         if(input==null) return null;
         
         try{
+        	// creating the object of MessageDigest
+            // and getting instance
+            // By using getInstance() method
             MessageDigest digest=MessageDigest.getInstance("MD5");
             digest.update(input.getBytes(),0,input.length());
             encPass=new BigInteger(1,digest.digest()).toString(16);
@@ -192,6 +199,7 @@ public class LoginDialog extends javax.swing.JDialog {
         if(new ConnectionFactory().checkLogin(username,password,user)==true){
             dispose();
             new Dashboard(user,username);
+            JOptionPane.showMessageDialog(null, "You have successfully logged in");
         }else{
             JOptionPane.showMessageDialog(null, "Invalid username or password");
         }
