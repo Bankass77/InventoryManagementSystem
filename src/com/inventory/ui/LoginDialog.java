@@ -9,6 +9,9 @@ package com.inventory.ui;
 import com.inventory.database.ConnectionFactory;
 import java.math.BigInteger;
 import java.security.MessageDigest;
+
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.JComboBox;
 import javax.swing.JOptionPane;
 
 /**
@@ -37,7 +40,7 @@ public class LoginDialog extends javax.swing.JDialog {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        comboBox = new javax.swing.JComboBox();
+        comboBox = new JComboBox();
         jLabel1 = new javax.swing.JLabel();
         usernameLab = new javax.swing.JLabel();
         usernameTxt = new javax.swing.JTextField();
@@ -51,7 +54,7 @@ public class LoginDialog extends javax.swing.JDialog {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Login");
 
-        comboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ADMINISTRATOR", "NORMAL USER" }));
+        comboBox.setModel(new DefaultComboBoxModel(new String[] { "ADMINISTRATOR", "NORMAL USER" }));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/inventory/ui/images/loginMember.png"))); // NOI18N
 

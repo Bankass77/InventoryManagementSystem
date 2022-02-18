@@ -13,6 +13,8 @@ import java.awt.Color;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.swing.BorderFactory;
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.JComboBox;
 import javax.swing.JOptionPane;
 
 /**
@@ -54,7 +56,7 @@ ProductDTO productdto;
         table = new javax.swing.JTable();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel1 = new javax.swing.JPanel();
-        comboBox = new javax.swing.JComboBox();
+        comboBox = new JComboBox();
         addProduct = new javax.swing.JLabel();
         deleteBttn = new javax.swing.JLabel();
         clearBttn = new javax.swing.JLabel();
@@ -110,7 +112,7 @@ ProductDTO productdto;
         jPanel1.setBorder(BorderFactory.createLineBorder(Color.black));
         jPanel1.setFont(new java.awt.Font("Comfortaa", 0, 12)); // NOI18N
 
-        comboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Select Supplier's Name" }));
+        comboBox.setModel(new DefaultComboBoxModel(new String[] { "Select Supplier's Name" }));
         comboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 comboBoxActionPerformed(evt);

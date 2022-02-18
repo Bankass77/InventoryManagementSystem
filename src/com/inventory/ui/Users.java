@@ -14,6 +14,8 @@ import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.sql.SQLException;
 import javax.swing.BorderFactory;
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.JComboBox;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 
@@ -59,7 +61,7 @@ public class Users extends javax.swing.JPanel {
         jPanel1 = new javax.swing.JPanel();
         addBttn = new javax.swing.JLabel();
         locationLab = new javax.swing.JLabel();
-        userComboBox = new javax.swing.JComboBox();
+        userComboBox = new JComboBox();
         fullNameLab = new javax.swing.JLabel();
         phoneTxt = new javax.swing.JTextField();
         locationTxt = new javax.swing.JTextField();
@@ -115,7 +117,7 @@ public class Users extends javax.swing.JPanel {
 
         locationLab.setText("Location");
 
-        userComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ADMINISTRATOR", "NORMAL USER" }));
+        userComboBox.setModel(new DefaultComboBoxModel(new String[] { "ADMINISTRATOR", "NORMAL USER" }));
         userComboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 userComboBoxActionPerformed(evt);

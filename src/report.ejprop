@@ -3,7 +3,7 @@
     <version><![CDATA[1.0]]></version>
     <connectionFactoryClassName></connectionFactoryClassName>
     <translatorClassName></translatorClassName>
-    <reportRunnerClassName><![CDATA[org.entirej.report.EJReportDefaultRunner]]></reportRunnerClassName>
+    <reportRunnerClassName><![CDATA[org.entirej.repor.EJReportDefaultRunner]]></reportRunnerClassName>
     <applicationLevelParameterList>
     </applicationLevelParameterList>
     <packages>
